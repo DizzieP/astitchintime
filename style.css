@@ -1,0 +1,268 @@
+html {
+    font-size: 16px;
+    font-family: 'Bree Serif', serif;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 6.25rem;
+    background-color: black;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    border-bottom: 5px solid white;
+    opacity: 0.5;
+}
+
+.nav-list {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-content: center;
+    text-decoration: none;
+    font-size: 2rem;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+li a {
+    color:hsl(170, 82%, 66%);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.fa-facebook:hover {
+    background-color: hsl(170, 82%, 66%);
+}
+
+.fa-instagram:hover {
+    background-color: hsl(170, 82%, 66%); 
+}
+
+.fa-envelope:hover {
+    background-color: hsl(170, 82%, 66%);
+}
+
+.nav-icons {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 6.25rem;
+    padding-top: 1.5rem;
+}
+
+.fa-facebook {
+    font-size: 3.125rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    align-items: center;
+    align-content: center;
+    
+} 
+
+.fa-instagram {
+    font-size: 3.125rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    align-items: center;
+    align-content: center;
+}
+
+.fa-envelope {
+    font-size: 3.125rem;
+    padding-left: 2rem; 
+    padding-right: 2rem;
+    align-items: center; 
+    align-content: center;
+}
+
+.intro-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 30rem;
+    flex-wrap: wrap;
+    background-image: url('./resources/images/threads.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.club-name {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    line-height: 1.4;
+    font-size: 3rem;
+    color: white;
+    background-color: #FF7EB1;
+    text-align: center;
+    margin: 0;
+} 
+
+.motto {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 3rem;
+    flex-wrap: wrap;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.motto-header {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    line-height: 1.4;
+    font-size: 3rem;
+    color: white;
+    background-color: #FF7EB1;
+    text-align: center;
+    margin: 0;
+}
+
+.motto-text-box {
+    display: flex;
+    background-color: hsl(170, 82%, 66%, 0.5);
+    margin: 0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.motto-text {
+    width: 70%;
+    font-size: 2rem;
+    line-height: 1.4;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.projects-box {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.bears {
+    width: 100%;
+}
+
+.doll {
+    width: 100%;
+}
+
+.stocking {
+    width: 100%;
+}
+
+.shawl {
+    width: 100%;
+}
+
+.projects-header {
+    width: 100%;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 3rem;
+    color: white;
+    background-color: #FF7EB1;
+    text-align: center;
+    margin: 0;
+    align-items: center;
+}
+
+.footer {
+    display: inline-flex;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 4rem;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer-left {
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+    
+.footer-right {
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+
+@media only screen and (min-width: 1366px) {
+    .bears {
+        width: 25%;
+    }
+
+    .doll {
+        width: 25%;
+    }
+    
+    .stocking {
+        width: 25%;
+    }
+    
+    .shawl {
+        width: 25%;
+    } 
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .bears {
+        width: 50%;
+    }
+
+    .doll {
+        width: 50%;
+    }
+    
+    .stocking {
+        width: 50%;
+    }
+    
+    .shawl {
+        width: 50%;
+    } 
+    }
+    
+  
+  @media only screen and (min-width: 360px) and (max-width: 375px) {
+    .bears {
+        width: 100%;
+    }
+
+    .doll {
+        width: 100%;
+    }
+    
+    .stocking {
+        width: 100%;
+    }
+    
+    .shawl {
+        width: 100%;
+    } 
+
+   html {
+    font-size: 12px;
+   }
+  }
+  
