@@ -153,7 +153,7 @@ li a {
     margin: 0;
     justify-content: center;
     align-content: center;
-    width: 100%;
+    max-width: 100%;
     flex-wrap: wrap;
 }
 
@@ -207,6 +207,62 @@ li a {
     padding-right: 1rem;
 }
 
+@media only screen and (min-width: 360px) and (max-width: 375px) {
+    .bears {
+        width: 100%;
+    }
+
+    .doll {
+        width: 100%;
+    }
+    
+    .stocking {
+        width: 100%;
+    }
+    
+    .shawl {
+        width: 100%;
+    } 
+
+    .nav-list {
+        font-size: 1rem;
+    }
+
+    .fa-facebook {
+        font-size: 1rem;
+    }
+
+    .fa-instagram {
+        font-size: 1rem;
+    }
+
+    .fa-envelope {
+        font-size: 1rem;
+    }
+
+   html {
+    font-size: 12px;
+   }
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .bears {
+        width: 50%;
+    }
+
+    .doll {
+        width: 50%;
+    }
+    
+    .stocking {
+        width: 50%;
+    }
+    
+    .shawl {
+        width: 50%;
+    } 
+    }
+    
 @media only screen and (min-width: 1366px) {
     .bears {
         width: 25%;
@@ -225,44 +281,7 @@ li a {
     } 
   }
   
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .bears {
-        width: 50%;
-    }
-
-    .doll {
-        width: 50%;
-    }
-    
-    .stocking {
-        width: 50%;
-    }
-    
-    .shawl {
-        width: 50%;
-    } 
-    }
-    
   
-  @media only screen and (min-width: 360px) and (max-width: 375px) {
-    .bears {
-        width: 100%;
-    }
-
-    .doll {
-        width: 100%;
-    }
-    
-    .stocking {
-        width: 100%;
-    }
-    
-    .shawl {
-        width: 100%;
-    } 
-
-   html {
-    font-size: 12px;
-   }
-  }
+  
+ 
   
