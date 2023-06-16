@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
     font-size: 16px;
     font-family: 'Bree Serif', serif;
@@ -207,20 +213,48 @@ li a {
     padding-right: 1rem;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 375px) {
-    .bears {
+@media only screen and (max-width: 426px) {
+
+    div.navbar {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .intro-box {
+        border-bottom: 5px solid white;
+    }
+
+    ul.nav-list {
+        display: block;
+        width: 100%;
+        padding: 5%;
+    }
+
+    li a {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    div.nav-icons {
+        height: 6rem;
+        padding-top: 1.5rem;
+    }
+
+    img.bears {
         width: 100%;
     }
 
-    .doll {
+    img.doll {
         width: 100%;
     }
     
-    .stocking {
+    img.stocking {
         width: 100%;
     }
     
-    .shawl {
+    img.shawl {
         width: 100%;
     } 
 
@@ -246,37 +280,37 @@ li a {
   }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .bears {
+    img.bears {
         width: 50%;
     }
 
-    .doll {
+    img.doll {
         width: 50%;
     }
     
-    .stocking {
+    img.stocking {
         width: 50%;
     }
     
-    .shawl {
+    img.shawl {
         width: 50%;
     } 
     }
     
 @media only screen and (min-width: 1366px) {
-    .bears {
+    img.bears {
         width: 25%;
     }
 
-    .doll {
+    img.doll {
         width: 25%;
     }
     
-    .stocking {
+    img.stocking {
         width: 25%;
     }
     
-    .shawl {
+    img.shawl {
         width: 25%;
     } 
   }
