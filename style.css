@@ -213,8 +213,8 @@ li a {
     padding-right: 1rem;
 }
 
-@media only screen and (max-width: 426px) {
-
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    
     div.navbar {
         display: block;
         text-align: center;
@@ -230,6 +230,7 @@ li a {
         display: block;
         width: 100%;
         padding: 5%;
+        font-size: 1rem;
     }
 
     li a {
@@ -240,26 +241,6 @@ li a {
     div.nav-icons {
         height: 6rem;
         padding-top: 1.5rem;
-    }
-
-    img.bears {
-        width: 100%;
-    }
-
-    img.doll {
-        width: 100%;
-    }
-    
-    img.stocking {
-        width: 100%;
-    }
-    
-    img.shawl {
-        width: 100%;
-    } 
-
-    .nav-list {
-        font-size: 1rem;
     }
 
     .fa-facebook {
@@ -277,27 +258,89 @@ li a {
    html {
     font-size: 12px;
    }
-  }
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
     img.bears {
-        width: 50%;
+        width: 100%;
     }
 
     img.doll {
-        width: 50%;
+        width: 100%;
     }
     
     img.stocking {
-        width: 50%;
+        width: 100%;
     }
     
     img.shawl {
-        width: 50%;
+        width: 100%;
     } 
+}
+
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+
+    div.navbar {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: auto;
     }
-    
-@media only screen and (min-width: 1366px) {
+
+    .intro-box {
+        border-bottom: 5px solid white;
+    }
+
+    ul.nav-list {
+        display: block;
+        width: 100%;
+        padding: 5%;
+        font-size: 1rem;
+    }
+
+    li a {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    div.nav-icons {
+        height: 6rem;
+        padding-top: 1.5rem;
+    }
+
+    .fa-facebook {
+        font-size: 1rem;
+    }
+
+    .fa-instagram {
+        font-size: 1rem;
+    }
+
+    .fa-envelope {
+        font-size: 1rem;
+    }
+
+   html {
+    font-size: 12px;
+   }
+
+   img.bears {
+    width: 50%;
+}
+
+img.doll {
+    width: 50%;
+}
+
+img.stocking {
+    width: 50%;
+}
+
+img.shawl {
+    width: 50%;
+} 
+  }
+
+
+@media only screen and (min-width: 768px) {
     img.bears {
         width: 25%;
     }
@@ -313,9 +356,8 @@ li a {
     img.shawl {
         width: 25%;
     } 
-  }
-  
-  
-  
- 
-  
+
+    html {
+        font-size: 16px;
+    }
+}
