@@ -163,19 +163,19 @@ li a {
     flex-wrap: wrap;
 }
 
-.bears {
+img.bears {
     width: 100%;
 }
 
-.doll {
+img.doll {
     width: 100%;
 }
 
-.stocking {
+img.stocking {
     width: 100%;
 }
 
-.shawl {
+img.shawl {
     width: 100%;
 }
 
@@ -213,133 +213,6 @@ li a {
     padding-right: 1rem;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 425px) {
-    
-    div.navbar {
-        display: block;
-        text-align: center;
-        width: 100%;
-        height: auto;
-    }
-
-    .intro-box {
-        border-bottom: 5px solid white;
-    }
-
-    ul.nav-list {
-        display: block;
-        width: 100%;
-        padding: 5%;
-        font-size: 1rem;
-    }
-
-    li a {
-        width: 100%;
-        font-size: 2rem;
-    }
-
-    div.nav-icons {
-        height: 6rem;
-        padding-top: 1.5rem;
-    }
-
-    .fa-facebook {
-        font-size: 1rem;
-    }
-
-    .fa-instagram {
-        font-size: 1rem;
-    }
-
-    .fa-envelope {
-        font-size: 1rem;
-    }
-
-   html {
-    font-size: 12px;
-   }
-    
-    img.bears {
-        width: 100%;
-    }
-
-    img.doll {
-        width: 100%;
-    }
-    
-    img.stocking {
-        width: 100%;
-    }
-    
-    img.shawl {
-        width: 100%;
-    } 
-}
-
-@media only screen and (min-width: 426px) and (max-width: 767px) {
-
-    div.navbar {
-        display: block;
-        text-align: center;
-        width: 100%;
-        height: auto;
-    }
-
-    .intro-box {
-        border-bottom: 5px solid white;
-    }
-
-    ul.nav-list {
-        display: block;
-        width: 100%;
-        padding: 5%;
-        font-size: 1rem;
-    }
-
-    li a {
-        width: 100%;
-        font-size: 2rem;
-    }
-
-    div.nav-icons {
-        height: 6rem;
-        padding-top: 1.5rem;
-    }
-
-    .fa-facebook {
-        font-size: 1rem;
-    }
-
-    .fa-instagram {
-        font-size: 1rem;
-    }
-
-    .fa-envelope {
-        font-size: 1rem;
-    }
-
-   html {
-    font-size: 12px;
-   }
-
-   img.bears {
-    width: 50%;
-}
-
-img.doll {
-    width: 50%;
-}
-
-img.stocking {
-    width: 50%;
-}
-
-img.shawl {
-    width: 50%;
-} 
-  }
-
-
 @media only screen and (min-width: 768px) {
     img.bears {
         width: 25%;
@@ -361,3 +234,4 @@ img.shawl {
         font-size: 16px;
     }
 }
+
