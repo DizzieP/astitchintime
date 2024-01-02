@@ -214,24 +214,9 @@ img.shawl {
 }
 
 @media only screen and (min-width: 768px) {
-    img.bears {
-        width: 25%;
-    }
-
-    img.doll {
-        width: 25%;
-    }
-    
-    img.stocking {
-        width: 25%;
-    }
-    
-    img.shawl {
-        width: 25%;
-    } 
 
     html {
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
