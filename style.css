@@ -213,7 +213,7 @@ img.shawl {
     padding-right: 1rem;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) {
 
     img.bears {
         width: 100%;
@@ -234,5 +234,28 @@ img.shawl {
     html {
         font-size: 12px;
     }
+}
+
+@media screen and (min-width: 767px) {
+    img.bears {
+        width: 25%;
+    }
+    
+    img.doll {
+        width: 25%;
+    }
+    
+    img.stocking {
+        width: 25%;
+    }
+    
+    img.shawl {
+        width: 25%;
+    }
+
+    html {
+        font-size: 16px;
+    }
+
 }
 
