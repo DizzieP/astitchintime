@@ -164,19 +164,19 @@ li a {
 }
 
 img.bears {
-    width: 100%;
+    width: 25%;
 }
 
 img.doll {
-    width: 100%;
+    width: 25%;
 }
 
 img.stocking {
-    width: 100%;
+    width: 25%;
 }
 
 img.shawl {
-    width: 100%;
+    width: 25%;
 }
 
 .projects-header {
@@ -213,7 +213,23 @@ img.shawl {
     padding-right: 1rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
+
+    img.bears {
+        width: 100%;
+    }
+    
+    img.doll {
+        width: 100%;
+    }
+    
+    img.stocking {
+        width: 100%;
+    }
+    
+    img.shawl {
+        width: 100%;
+    }
 
     html {
         font-size: 12px;
