@@ -100,11 +100,11 @@ li a {
     justify-content: center;
     align-content: center;
     width: 100%;
-    height: 30rem;
+    height: 35em;
     flex-wrap: wrap;
-    background-image: url('./resources/images/threads.jpg');
-    background-size: cover;
+    background-image: url('resources/images/threadsfinal.jpeg');
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
 .club-name {
